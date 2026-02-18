@@ -1,7 +1,6 @@
 package org.example.service;
 
 import org.example.model.Cadastro;
-import org.example.view.CadastrarView;
 
 public class CadastroService {
 
@@ -17,10 +16,4 @@ public class CadastroService {
         }
         return false;
     }
-
-
-
-
-
-
 }

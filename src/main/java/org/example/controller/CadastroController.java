@@ -4,7 +4,6 @@ import org.example.model.Cadastro;
 import org.example.repository.CadastroRepository;
 import org.example.service.CadastroService;
 import org.example.view.CadastrarView;
-import org.example.view.ListaView;
 import org.example.view.MenuView;
 
 public class CadastroController {
@@ -41,14 +40,12 @@ public class CadastroController {
                     } else {
                         System.out.println("Cadastro não concluido, voltando ao menu...");
                     }
-
                 }
                 case 0 -> {
                     System.out.println("Encerrando programa...");
                     executando = false;
                 }
                 case 2 -> {
-
                     if (repository.listaVazia()) {
                         System.out.println("NENHUMA PESSOA CADASTRADA!");
                     } else {
@@ -59,14 +56,6 @@ public class CadastroController {
                     System.out.println("opção inválida!");
                 }
             }
-
-
-
-
-
-
-
-
         }
     }
 }

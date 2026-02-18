@@ -50,7 +50,6 @@ public class CadastrarView {
             System.out.println("CIDADE NATAL: " + cadastro.getCidadeNatal());
             System.out.println("-------------------------------------------");
         }
-
     }
 }
 

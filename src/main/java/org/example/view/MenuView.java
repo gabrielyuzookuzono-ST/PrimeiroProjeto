@@ -17,17 +17,4 @@ public class MenuView {
         scanner.nextLine();
         return opcaoMenu;
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
 }
